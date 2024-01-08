@@ -8,9 +8,9 @@
         <a class="self-center pr-4" @click="toAbout()">
           <FontAwesomeIcon icon="question-circle" class="h-icon hover:text-on-primary-hover-500"></FontAwesomeIcon>
         </a>
-        <a class="self-center pr-4 h-6" href="https://www.buymeacoffee.com/stexx" target="_blank">
-          <coffee style="grid-area: logo" class="h-full w-full hover:text-on-primary-hover-500" />
-        </a>
+<!--        <a class="self-center pr-4 h-6" href="https://www.buymeacoffee.com/stexx" target="_blank">-->
+<!--          <coffee style="grid-area: logo" class="h-full w-full hover:text-on-primary-hover-500" />-->
+<!--        </a>-->
       </Toolbar>
     </template>
 

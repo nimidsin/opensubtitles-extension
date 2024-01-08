@@ -15,9 +15,9 @@ const whenSetObject = (predicate, object, key, value) => (predicate() ? setObjec
 
 const toPrettyJson = (obj) => JSON.stringify(obj, null, 2);
 
-const EXTENSION_ORIGIN = "plussub";
+const EXTENSION_ORIGIN = "uitjeuin";
 
-const FIREFOX_EXTENSION_KEY = '{83078104-a00b-45e2-8749-7a10af244653}'
+const FIREFOX_EXTENSION_KEY = '{fa13934b-65d0-4632-b49e-5e4f6cba9168}'
 
 export default (env) => {
   const browser = (env.browser ? env.browser.toLowerCase() : 'unknown').trim();

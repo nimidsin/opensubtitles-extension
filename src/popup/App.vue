@@ -125,25 +125,25 @@ export default defineComponent({
 :host {
   all: initial;
 
-  --plussub-position: absolute;
-  --plussub-max-width: 400px;
-  --plussub-width: 400px;
-  --plussub-min-width: 400px;
-  --plussub-max-height: 280px;
-  --plussub-min-height: 400px;
+  --uitjeuin-position: absolute;
+  --uitjeuin-max-width: 400px;
+  --uitjeuin-width: 400px;
+  --uitjeuin-min-width: 400px;
+  --uitjeuin-max-height: 280px;
+  --uitjeuin-min-height: 400px;
   --content-min-height: 280px;
 }
 
 @media (max-width:600px)  {
   :host {
-    --plussub-position: fixed;
-    --plussub-max-width: 100vw;
-    --plussub-width: 100vw;
-    --plussub-min-width: 100vw;
-    --plussub-min-height: 250px;
-    --plussub-shadow-bottom: 0px;
-    --plussub-shadow-top: unset;
-    --plussub-shadow-left: 0px;
+    --uitjeuin-position: fixed;
+    --uitjeuin-max-width: 100vw;
+    --uitjeuin-width: 100vw;
+    --uitjeuin-min-width: 100vw;
+    --uitjeuin-min-height: 250px;
+    --uitjeuin-shadow-bottom: 0px;
+    --uitjeuin-shadow-top: unset;
+    --uitjeuin-shadow-left: 0px;
     --content-min-height: unset;
 
   }

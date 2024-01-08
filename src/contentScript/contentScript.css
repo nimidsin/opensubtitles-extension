@@ -1,14 +1,14 @@
-video[data-plussub-status="injected"]::cue,
-::cue( .plussub ) {
-    color: var(--plussub-cue-color);
-    background-color: var(--plussub-cue-background-color);
-    font-size: calc(var(--plussub-cue-font-size)*1px);
-    font-weight: var(--plussub-cue-font-weight);
-    line-height: var(--plussub-cue-line-height);
-    text-shadow: var(--plussub-cue-text-shadow);
+video[data-uitjeuin-status="injected"]::cue,
+::cue( .uitjeuin ) {
+    color: var(--uitjeuin-cue-color);
+    background-color: var(--uitjeuin-cue-background-color);
+    font-size: calc(var(--uitjeuin-cue-font-size)*1px);
+    font-weight: var(--uitjeuin-cue-font-weight);
+    line-height: var(--uitjeuin-cue-line-height);
+    text-shadow: var(--uitjeuin-cue-text-shadow);
 
-    outline: var(--plussub-cue-background-color) solid 500px;
-    background-image: linear-gradient(var(--plussub-cue-background-color), var(--plussub-cue-background-color));
-    border-color: var(--plussub-cue-background-color);
-    text-decoration-color: var(--plussub-cue-background-color);
+    outline: var(--uitjeuin-cue-background-color) solid 500px;
+    background-image: linear-gradient(var(--uitjeuin-cue-background-color), var(--uitjeuin-cue-background-color));
+    border-color: var(--uitjeuin-cue-background-color);
+    text-decoration-color: var(--uitjeuin-cue-background-color);
 }

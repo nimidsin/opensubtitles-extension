@@ -1,5 +1,5 @@
 (function() {
-  const EXTENSION_ORIGIN = "plussub";
+  const EXTENSION_ORIGIN = "uitjeuin";
   if (document.querySelector(`#${EXTENSION_ORIGIN}-cue-style`)) {
     return;
   }

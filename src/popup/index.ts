@@ -27,7 +27,7 @@ export const init = async (): Promise<void> => {
     const appShadowDiv = document.createElement('div');
     appShadowDiv.id = getExtensionPopUpId();
     Object.assign(appShadowDiv.style, {
-      position: "var(--plussub-position)",
+      position: "var(--uitjeuin-position)",
       zIndex: "10000",
       top: extensionPopUpTopAsCssVar(),
       left: extensionPopUpLeftAsCssVar(),
